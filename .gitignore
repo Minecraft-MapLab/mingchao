@@ -1,0 +1,13 @@
+# 完整世界与ZIP放GitHub Release，不放Git历史。
+*.zip
+*.mca
+*.dat
+*.dat_old
+session.lock
+players/
+private-audit/
+release-assets/
+sanitized-world/
+.venv/
+__pycache__/
+.DS_Store

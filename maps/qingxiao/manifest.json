@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "qingxiao",
+  "title": "清宵",
+  "version": "0.1.0",
+  "status": "release_package",
+  "publication": {
+    "repository": "Minecraft-MapLab/mingchao",
+    "tag": "qingxiao-v0.1.0",
+    "release_url": "https://github.com/Minecraft-MapLab/mingchao/releases/tag/qingxiao-v0.1.0",
+    "checksum_asset": "SHA256SUMS.txt"
+  },
+  "minecraft": {
+    "edition": "java",
+    "version": "26.3",
+    "data_version": 5023
+  },
+  "baseline": {
+    "id": "java-26.3-wool-gap-night-1",
+    "sha256": "f7bad90796d9709dc6e2cd76ed156ed5a8c0388350b11e2e30f2f56167820bfb"
+  },
+  "maps": 144,
+  "grid": [
+    16,
+    9
+  ],
+  "frames": 288,
+  "scene": {
+    "ground": "single_white_wool_layer",
+    "ground_y": -64,
+    "air_gap_y": -63,
+    "wall_bottom_y": -62,
+    "midnight_frozen": true,
+    "cheats_enabled": true
+  },
+  "image": {
+    "output": [
+      2048,
+      1152
+    ],
+    "crop_percent": 0,
+    "padding_pixels": 0,
+    "preview": "preview.png",
+    "pixel_sha256": "f37f509488d7a11c46e24b3653a1daf81090464d6f07a40455318f6db29c67d8"
+  },
+  "release_asset": {
+    "file": "mingchao-qingxiao-java26.3-v0.1.0.zip",
+    "bytes": 3288534,
+    "sha256": "f01fd87a13604ecaad86beae55dfe92720c4f21c67a31298a596c0e814c1553d",
+    "members": 191,
+    "folder": "qingxiao",
+    "zip_crc_passed": true
+  },
+  "privacy": {
+    "player_records_excluded": true,
+    "singleplayer_uuid_removed": true,
+    "personal_wall_clock_timestamps_removed": true,
+    "original_icon_excluded": true,
+    "region_header_timestamps_zeroed": true,
+    "archive_metadata_normalized": true,
+    "world_entity_uuids_preserved": true,
+    "scope": "known profile fields, source account IDs, decoded NBT/text path and credential patterns"
+  },
+  "public_copy_repairs": {
+    "back_frame_rotations_4_to_0": [
+      40,
+      55,
+      71
+    ],
+    "other_entity_nbt_semantics_identical": true,
+    "method": "exact same-build reference, not an old template"
+  },
+  "verification": {
+    "world_structure_checks": "17/17",
+    "map_bytes_preserved": "144/144 + last_id.dat",
+    "zip_extracted_sha_match": true,
+    "new_client_import_test": "not_performed"
+  },
+  "rights": {
+    "franchise": "鸣潮 / Wuthering Waves",
+    "original_image_source": null,
+    "image_permission": "not_verified",
+    "license": null,
+    "warning": "二创准则不自动覆盖游戏/软件类别；技术发行不等于取得第三方素材许可，不默认MIT或CC0"
+  }
+}
